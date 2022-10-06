@@ -1,0 +1,245 @@
+@font-face {
+  font-family: "Roboto-Black";
+  src: url(fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-BlackItalic";
+  src: url(fonts/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-BoldItalic";
+  src: url(fonts/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Italic";
+  src: url(fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-LightItalic";
+  src: url(fonts/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-MediumItalic";
+  src: url(fonts/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url(fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-ThinItalic";
+  src: url(fonts/Roboto-ThinItalic.ttf);
+}
+
+body {
+  margin: 0 0;
+}
+
+header {
+  padding: 15px 13% 110px;
+  background-color: #1f2937;
+}
+
+.nav_div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Roboto-Black";
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+nav {
+  display: flex;
+  width: 430px;
+  justify-content: space-between;
+  font-family: "Roboto-Light";
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.first_section {
+  display: flex;
+  margin-top: 10%;
+}
+
+.left,
+.right {
+  flex: 0 0 50%;
+  box-sizing: border-box; /*Otherwise adding "padding" will lead to an unequal width distribution*/
+}
+
+.left {
+  padding-right: 50px;
+}
+
+.right {
+  font-family: "Roboto-Medium";
+  font-size: 16px;
+  display: inline-block;
+  background-color: #8e9093;
+  text-align: center;
+  height: 220.65px;
+  line-height: 220.65px;
+  color: #e5e7eb;
+}
+
+.left h1 {
+  font-family: "Roboto-Bold";
+  font-size: 48px;
+  font-weight: 800; /*Extra bold*/
+  color: #f9faf8;
+  margin-bottom: -3%;
+  margin-top: -2%;
+}
+
+.left p {
+  font-family: "Roboto-Light";
+  color: #e5e7eb;
+}
+
+.left button {
+  padding: 5px 28px;
+  font-family: "Roboto-Light";
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
+  border-radius: 5px;
+}
+
+.second_section {
+  padding-bottom: 100px;
+}
+
+.second_section h1 {
+  text-align: center;
+  font-family: "Roboto-Bold"; /*It's not showing the right font-weight. The text in the assignment pdf looks bolder.*/
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  width: 140px;
+  margin: 0px 25px;
+}
+
+.illustration {
+  box-sizing: border-box;
+  width: 140px;
+  height: 140px;
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+}
+
+.card sub {
+  font-family: "Roboto-Regular";
+  line-height: 60%;
+  font-weight: 700;
+  color: #7f7f7f;
+}
+
+article {
+  background-color: #e5e7eb;
+  padding: 100px 360px;
+}
+
+article .p1 {
+  font-family: "Roboto-LightItalic";
+  font-size: 36px;
+  margin-bottom: -3%;
+}
+
+article .p2 {
+  font-family: "Roboto-Bold";
+  font-size: 20px;
+  text-align: right;
+  color: #1f2937;
+}
+
+.call_to_action {
+  display: flex;
+  align-items: center;
+  padding: 20px 120px;
+  margin: 100px 200px;
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
+  border-radius: 6px;
+}
+
+.call_to_action div {
+  flex: 9;
+}
+
+.call_to_action h3 {
+  font-family: "Roboto-Bold";
+  color: rgb(245, 245, 245);
+  margin-bottom: -2%;
+}
+
+.call_to_action p {
+  font-family: "Roboto-Light";
+  font-size: 14px;
+  color: rgb(223, 223, 223);
+}
+
+.call_to_action button {
+  flex: 1;
+  padding: 5px 28px;
+  font-family: "Roboto-Light";
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #3882f6;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+footer {
+  padding: 26px 0px;
+  background-color: #1f2937;
+  text-align: center;
+  font-family: "Roboto-Light";
+  color: white;
+}
