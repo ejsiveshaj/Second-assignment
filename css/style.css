@@ -75,6 +75,10 @@ header {
 .logo {
   font-family: "Roboto-Black";
   font-size: 24px;
+}
+
+.logo a {
+  text-decoration: none;
   color: #f9faf8;
 }
 
@@ -106,6 +110,7 @@ nav a {
   padding-right: 50px;
 }
 
+/*
 .right {
   font-family: "Roboto-Medium";
   font-size: 16px;
@@ -115,6 +120,19 @@ nav a {
   height: 220.65px;
   line-height: 220.65px;
   color: #e5e7eb;
+}
+*/
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.boat_img {
+  width: 50%;
+  height: auto;
+  transform: rotate(-6deg);
 }
 
 .left h1 {
@@ -161,15 +179,22 @@ nav a {
 }
 
 .card {
-  width: 140px;
-  margin: 0px 25px;
+  width: 220px;
+  margin: 0px 15px;
 }
 
-.illustration {
+/*.illustration {
   box-sizing: border-box;
   width: 140px;
   height: 140px;
   border: 3px solid #3882f6;
+  border-radius: 8px;
+}*/
+
+.card img {
+  width: 220px;
+  height: 140px;
+  border: 1px solid rgb(217, 217, 217);
   border-radius: 8px;
 }
 

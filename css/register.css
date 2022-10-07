@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "Roboto-Black";
+  src: url(fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-BlackItalic";
+  src: url(fonts/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-BoldItalic";
+  src: url(fonts/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Italic";
+  src: url(fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-LightItalic";
+  src: url(fonts/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-MediumItalic";
+  src: url(fonts/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url(fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-ThinItalic";
+  src: url(fonts/Roboto-ThinItalic.ttf);
+}
+
+body {
+  margin: 0 0;
+}
+
+header {
+  padding: 15px 13% 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Roboto-Black";
+  font-size: 24px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #3882f6;
+}
+
+nav {
+  display: flex;
+  width: 430px;
+  justify-content: space-between;
+  font-family: "Roboto-Light";
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(108, 108, 108);
+}
+
+section {
+  margin: 3% 30%;
+  text-align: center;
+}
+
+section h2 {
+  font-family: "Roboto-Regular";
+  color: #1c314f;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 40%;
+  margin-bottom: 10px;
+  font-family: "Roboto-Light";
+  font-size: 15px;
+  padding: 6px 15px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  padding: 6px 28px;
+  font-family: "Roboto-Light";
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: goldenrod;
+  border: 1px solid goldenrod;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: goldenrod;
+}
+
+section h3 {
+  font-family: "Roboto-Italic";
+  font-size: 18px;
+  color: rgb(108, 108, 108);
+}
+
+.social_media {
+  display: flex;
+  justify-content: center;
+}
+
+.social_media img {
+  width: 35px;
+  height: 35px;
+  margin: 0px 15px;
+}
