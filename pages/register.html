@@ -1,78 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/register.css" />
-    <title>Register</title>
-  </head>
-  <body>
-    <header>
-      <a href="../index.html" class="logo">Sea Poetry</a>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Homepage</a></li>
-          <li><a href="#">List your boat</a></li>
-          <li><a href="#">Sign in</a></li>
-          <li><a href="#">About us</a></li>
-        </ul>
-      </nav>
-    </header>
-    <article>
-      <section class="left_section">
-        <img src="../images/captain.png" alt="Captain">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/register.css" />
+  <title>Register</title>
+</head>
+
+<body>
+  <header>
+    <a href="../index.html" class="logo">Sea Poetry</a>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Homepage</a></li>
+        <li><a href="#">List your boat</a></li>
+        <li><a href="#">Sign in</a></li>
+        <li><a href="#">About us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <article>
+    <section class="left_section">
+      <img src="../images/captain.png" alt="Captain" />
+    </section>
+    <section class="center_section">
+      <h2>Please fill in this form to create an account.</h2>
+      <form action="#">
+        <input type="text" id="first_name" name="first_name" placeholder="Enter your first name..." />
+        <input type="text" id="last_name" name="last_name" placeholder="Enter your last name..." />
+        <input type="email" id="email" name="email" placeholder="Enter your email..." />
+        <input type="password" id="pass" name="pass" placeholder="Enter your password..." />
+        <input type="password" id="repeat_pass" name="repeat_pass" placeholder="Repeat your password..." />
+        <input type="submit" value="Sign up" />
+      </form>
+      <h3>or with one of these options :</h3>
+      <section class="social_media">
+        <img src="../images/google_img.png" alt="Google symbol" />
+        <img src="../images/facebook_img.png" alt="Facebook symbol" />
+        <img src="../images/apple_img.png" alt="Apple symbol" style="width: 30px" />
       </section>
-      <section class="center_section">
-        <h2>Please fill in this form to create an account.</h2>
-        <form action="#">
-          <input
-            type="text"
-            id="first_name"
-            name="first_name"
-            placeholder="Enter your first name..."
-          />
-          <input
-            type="text"
-            id="last_name"
-            name="last_name"
-            placeholder="Enter your last name..."
-          />
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Enter your email..."
-          />
-          <input
-            type="password"
-            id="pass"
-            name="pass"
-            placeholder="Enter your password..."
-          />
-          <input
-            type="password"
-            id="repeat_pass"
-            name="repeat_pass"
-            placeholder="Repeat your password..."
-          />
-          <input type="submit" value="Sign up" />
-        </form>
-        <h3>or with one of these options :</h3>
-        <section class="social_media">
-          <img src="../images/google_img.png" alt="Google symbol" />
-          <img src="../images/facebook_img.png" alt="Facebook symbol" />
-          <img
-            src="../images/apple_img.png"
-            alt="Apple symbol"
-            style="width: 30px"
-          />
-        </section>
-      </section>
-      <section class="right_section">
-        <img src="../images/welcome_on_board.png" alt="Welcome on board">
-      </section>
-    </article>
-    <footer>© 2022 Sea Poetry</footer>
-  </body>
+    </section>
+    <section class="right_section">
+      <img src="../images/welcome_on_board.png" alt="Welcome on board" />
+    </section>
+  </article>
+  <footer>© 2022 Sea Poetry</footer>
+</body>
+
 </html>

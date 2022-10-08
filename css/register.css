@@ -97,15 +97,15 @@ article {
   display: flex;
 }
 
-.left_section{
+.left_section {
   flex: 1;
 }
 
-.center_section{
+.center_section {
   flex: 2;
 }
 
-.right_section{
+.right_section {
   display: flex;
   flex: 1;
   justify-content: flex-start;
@@ -162,19 +162,19 @@ article h3 {
   justify-content: center;
 }
 
-.social_media  img {
+.social_media img {
   width: 35px;
   height: 35px;
   margin: 0px 15px;
 }
 
-.right_section img{
+.right_section img {
   width: 260px;
   height: auto;
   transform: rotate(20deg);
 }
 
-.left_section img{
+.left_section img {
   width: 320px;
   height: auto;
 }
