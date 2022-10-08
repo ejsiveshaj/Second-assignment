@@ -63,42 +63,58 @@ body {
 }
 
 header {
-  padding: 15px 13% 50px;
+  padding: 15px 13%;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+  background-color: #1f2937;
 }
 
 .logo {
+  text-decoration: none;
   font-family: "Roboto-Black";
   font-size: 24px;
+  color: #f9faf8;
 }
 
-.logo a {
-  text-decoration: none;
-  color: #3882f6;
-}
-
-nav {
+nav ul {
   display: flex;
   width: 430px;
   justify-content: space-between;
   font-family: "Roboto-Light";
+  list-style: none;
 }
 
-nav a {
+nav ul li a {
   text-decoration: none;
   font-size: 18px;
-  color: rgb(108, 108, 108);
+  color: #e5e7eb;
 }
 
-section {
-  margin: 3% 30%;
+article {
+  margin: 6% 0%;
   text-align: center;
+  display: flex;
 }
 
-section h2 {
+.left_section{
+  flex: 1;
+}
+
+.center_section{
+  flex: 2;
+}
+
+.right_section{
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+article h2 {
   font-family: "Roboto-Regular";
-  color: #1c314f;
+  color: goldenrod;
 }
 
 form {
@@ -125,17 +141,17 @@ input[type="submit"] {
   font-size: 15px;
   font-weight: bold;
   color: white;
-  background-color: goldenrod;
-  border: 1px solid goldenrod;
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
   border-radius: 5px;
 }
 
 input[type="submit"]:hover {
   background-color: white;
-  color: goldenrod;
+  color: #3882f6;
 }
 
-section h3 {
+article h3 {
   font-family: "Roboto-Italic";
   font-size: 18px;
   color: rgb(108, 108, 108);
@@ -146,8 +162,30 @@ section h3 {
   justify-content: center;
 }
 
-.social_media img {
+.social_media  img {
   width: 35px;
   height: 35px;
   margin: 0px 15px;
+}
+
+.right_section img{
+  width: 260px;
+  height: auto;
+  transform: rotate(20deg);
+}
+
+.left_section img{
+  width: 320px;
+  height: auto;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 26px 0px;
+  width: 100%;
+  background-color: #1f2937;
+  text-align: center;
+  font-family: "Roboto-Light";
+  color: white;
 }

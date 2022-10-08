@@ -9,70 +9,70 @@
   </head>
   <body>
     <header>
-      <div class="nav_div">
-        <div class="logo"><a href="index.html">Sea Poetry</a></div>
-        <nav>
-          <a href="#">List your boat</a>
-          <a href="pages/register.html">Register</a>
-          <a href="#">Sign in</a>
-          <a href="#">About us</a>
-        </nav>
-      </div>
-      <section class="first_section">
-        <div class="left">
-          <h1>Sail till the sea meets the sky...</h1>
-          <p>
-            A boat in port is safe but that's not what it was built for. Be the
-            captain for today, that's the only therapy you need.
-          </p>
-          <button>Book now</button>
-        </div>
-        <!--<div class="right">this is a placeholder for an image</div>-->
-        <div class="right">
-          <img src="images/boat_img.png" alt="Boat image" class="boat_img" />
-        </div>
-      </section>
+      <a href="index.html" class="logo">Sea Poetry</a>
+      <nav>
+        <!--The nav element communicates that we're dealing with a major navigation block.-->
+        <ul>
+          <!--The list communicates that the links inside this navigation block form a list of items.-->
+          <li><a href="#">List your boat</a></li>
+          <li><a href="pages/register.html">Register</a></li>
+          <li><a href="#">Sign in</a></li>
+          <li><a href="#">About us</a></li>
+        </ul>
+      </nav>
     </header>
-    <section class="second_section">
+    <article class="first_article">
+      <section class="left">
+        <h1>Sail till the sea meets the sky...</h1>
+        <p>
+          A boat in port is safe but that's not what it was built for. Be the
+          captain for today, that's the only therapy you need.
+        </p>
+        <button>Book now</button>
+      </section>
+      <aside class="right">
+        <img src="images/boat_img.png" alt="Boat image" class="boat_img" />
+      </aside>
+    </article>
+    <article class="second_article">
       <h1>Search by boat type</h1>
-      <div class="cards">
-        <div class="card">
+      <section class="cards">
+        <figure class="card">
           <!--<div class="illustration"></div>-->
           <img src="images/deck_boat.jpg" alt="First type of boat" />
-          <sub>Deck boats</sub>
-        </div>
-        <div class="card">
+          <figcaption>Deck boats</figcaption>
+        </figure>
+        <figure class="card">
           <!--<div class="illustration"></div>-->
           <img src="images/bowrider.jpg" alt="Second type of boat" />
-          <sub>Bowriders</sub>
-        </div>
-        <div class="card">
+          <figcaption>Bowriders</figcaption>
+        </figure>
+        <figure class="card">
           <!--<div class="illustration"></div>-->
           <img src="images/yacht.jpg" alt="Third type of boat" />
-          <sub>Yachts</sub>
-        </div>
-        <div class="card">
+          <figcaption>Yachts</figcaption>
+        </figure>
+        <figure class="card">
           <!--<div class="illustration"></div>-->
           <img
             src="images/high_performance_boat.jpg"
             alt="Fourth type of boat"
           />
-          <sub>High-performance boats</sub>
-        </div>
-      </div>
-    </section>
-    <article>
-      <p class="p1">Land was created to provide a place for boats to visit.</p>
-      <!--I used again a paragraph tag because with <span> or <sub> "text-align" does not work.-->
-      <p class="p2">-Brooks Attkinson</p>
+          <figcaption>High-performance boats</figcaption>
+        </figure>
+      </section>
     </article>
-    <div class="call_to_action">
-      <div>
+    <blockquote>
+      <q>Land was created to provide a place for boats to visit.</q>
+      <p>-Brooks Attkinson</p>
+    </blockquote>
+    <article class="third_article">
+      <section>
         <h3>Call to action! It's time!</h3>
         <p>Sign up for an exclusive discount of 25% on your first booking!</p>
-      </div>
+      </section>
       <button>Sign up</button>
-    </div>
+    </article>
     <footer>© 2022 Sea Poetry</footer>
   </body>
 </html>

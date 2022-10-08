@@ -9,59 +9,70 @@
   </head>
   <body>
     <header>
-      <div class="logo"><a href="../index.html">Sea Poetry</a></div>
+      <a href="../index.html" class="logo">Sea Poetry</a>
       <nav>
-        <a href="../index.html">Home</a>
-        <a href="#">List your boat</a>
-        <a href="#">Sign in</a>
-        <a href="#">About us</a>
+        <ul>
+          <li><a href="../index.html">Homepage</a></li>
+          <li><a href="#">List your boat</a></li>
+          <li><a href="#">Sign in</a></li>
+          <li><a href="#">About us</a></li>
+        </ul>
       </nav>
     </header>
-    <section>
-      <h2>Please fill in this form to create an account.</h2>
-      <form action="#">
-        <input
-          type="text"
-          id="first_name"
-          name="first_name"
-          placeholder="Enter your first name..."
-        />
-        <input
-          type="text"
-          id="last_name"
-          name="last_name"
-          placeholder="Enter your last name..."
-        />
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Enter your email..."
-        />
-        <input
-          type="password"
-          id="pass"
-          name="pass"
-          placeholder="Enter your password..."
-        />
-        <input
-          type="password"
-          id="repeat_pass"
-          name="repeat_pass"
-          placeholder="Repeat your password..."
-        />
-        <input type="submit" value="Sign up" />
-      </form>
-      <h3>or with one of these options :</h3>
-      <div class="social_media">
-        <img src="../images/google_img.png" alt="Google symbol" />
-        <img src="../images/facebook_img.png" alt="Facebook symbol" />
-        <img
-          src="../images/apple_img.png"
-          alt="Apple symbol"
-          style="width: 30px"
-        />
-      </div>
-    </section>
+    <article>
+      <section class="left_section">
+        <img src="../images/captain.png" alt="Captain">
+      </section>
+      <section class="center_section">
+        <h2>Please fill in this form to create an account.</h2>
+        <form action="#">
+          <input
+            type="text"
+            id="first_name"
+            name="first_name"
+            placeholder="Enter your first name..."
+          />
+          <input
+            type="text"
+            id="last_name"
+            name="last_name"
+            placeholder="Enter your last name..."
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email..."
+          />
+          <input
+            type="password"
+            id="pass"
+            name="pass"
+            placeholder="Enter your password..."
+          />
+          <input
+            type="password"
+            id="repeat_pass"
+            name="repeat_pass"
+            placeholder="Repeat your password..."
+          />
+          <input type="submit" value="Sign up" />
+        </form>
+        <h3>or with one of these options :</h3>
+        <section class="social_media">
+          <img src="../images/google_img.png" alt="Google symbol" />
+          <img src="../images/facebook_img.png" alt="Facebook symbol" />
+          <img
+            src="../images/apple_img.png"
+            alt="Apple symbol"
+            style="width: 30px"
+          />
+        </section>
+      </section>
+      <section class="right_section">
+        <img src="../images/welcome_on_board.png" alt="Welcome on board">
+      </section>
+    </article>
+    <footer>© 2022 Sea Poetry</footer>
   </body>
 </html>
